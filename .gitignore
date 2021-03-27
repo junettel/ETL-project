@@ -1,7 +1,3 @@
-# Ignore data files
-*.csv
-*.json
-
 # Ignore password
 config.py
 
