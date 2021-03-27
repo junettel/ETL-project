@@ -11,7 +11,7 @@ Amusa Adebayo - https://github.com/aadeba5/ETL-PROJECT
 Streaming Data - [Movies on Netflix, Prime Video, Hulu and Disney+](https://www.kaggle.com/ruchi798/movies-on-netflix-prime-video-hulu-and-disney) \
 IMBb Data - [IMDb movies extensive dataset](https://www.kaggle.com/stefanoleone992/imdb-extensive-dataset)
 
-
+## ETL:
 ### Extract
 * Downloaded data CSVs from Kaggle and loaded into Python to use Pandas for transformation and cleanup
   * **MoviesOnStreamingPlatforms_updated.csv**
