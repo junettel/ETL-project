@@ -12,7 +12,7 @@ Streaming Data - [Movies on Netflix, Prime Video, Hulu and Disney+](https://www.
 IMBb Data - [IMDb movies extensive dataset](https://www.kaggle.com/stefanoleone992/imdb-extensive-dataset)
 
 
-## Extract
+### Extract
 * Downloaded data CSVs from Kaggle and loaded into Python to use Pandas for transformation and cleanup
   * **MoviesOnStreamingPlatforms_updated.csv**
     * Provides comprehensive list of movies on streaming platforms with film information
@@ -23,7 +23,7 @@ IMBb Data - [IMDb movies extensive dataset](https://www.kaggle.com/stefanoleone9
   * **imdb_names.csv**
     * Includes information on movie cast and crew members along with an `imdb_name_id`
 
-## Transform
+### Transform
 Steps to complete data cleanup & analysis:
   * Cleaning:
     * Dropping unnecessary columns from each source
@@ -52,7 +52,7 @@ Steps to complete data cleanup & analysis:
       * Find all cast and crew members from **`names`** table from Chicago
         * This can be taken a step further to employ subqueries to find all movies on streaming platforms based on cast/crew related details (e.g. query all movies with a specific actor)
 
-## Load
+### Load
 * Loaded data tables into relational database, pgAdmin (postgres)
 * Final tables loaded to **`streaming_db`** pgAdmin (postgres) database:
   * **`movies`** - streaming platform movies with unique `imdb_title_id` index
