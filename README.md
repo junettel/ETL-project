@@ -4,7 +4,7 @@ ETL Project
 ## Github Repositories:
 Julie Wells - https://github.com/jcwells18/ETL-Project \
 Junette Lee - https://github.com/junettel/ETL-project \
-Amusa Adebayo - https://github.com/aadeba5/ETL-PROJECT
+Amusa Adebayo - https://github.com/aadeba5/ETL_PROJ2
 
 
 ## Data Sources:
